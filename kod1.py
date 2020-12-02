@@ -1,4 +1,4 @@
-vstup = open('input.txt', encoding='utf-8')
+vstup = open('input1.txt', encoding='utf-8')
 radky = [int(radek.split('\n')[0]) for radek in vstup]
 
 for num1 in radky:
