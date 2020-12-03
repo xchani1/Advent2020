@@ -1,7 +1,7 @@
 vstup = open('input3.txt', encoding='utf-8')
 radky = [radek.split('\n') for radek in vstup]
 
-radky=[(len(radky))*radek[0] for radek in radky]
+radky=[(len(radky)//(len(radek)))*radek[0] for radek in radky]
 
 stromu_celk=[]
 nasobek=1
