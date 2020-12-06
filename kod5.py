@@ -17,5 +17,5 @@ print(max(hodnoty))
 hodnoty.sort()
 
 for a in range(min(hodnoty),max(hodnoty)):
-  if a not in hodnoty:
+  if a not in hodnoty and a+1 in hodnoty and a-1 in hodnoty:
     print(a)
