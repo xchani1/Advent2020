@@ -18,7 +18,7 @@ pocty=0
 # pocty+=len(odpovedi)
 # print(pocty)
 
-# part 2 - nefunkcni :(
+# part 2
 i=0
 for radek in radky:
   i=i+1
@@ -29,7 +29,7 @@ for radek in radky:
           odpovedi.append(pismeno)
       print(odpovedi)
     else:
-      for p in odpovedi:
+      for p in odpovedi.copy():
         if p not in radek:
           odpovedi.remove(p)
       print(odpovedi)
